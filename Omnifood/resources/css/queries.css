@@ -20,6 +20,19 @@
     .contact-form {
         width: 100%;
     }
+
+    .col-nav {
+        width: 50% !important;
+    }
+    
+    .col-socials {
+        width: 50% !important;
+    }
+
+    .footer-nav li,
+    .social-links li {
+        display: block;
+    }
 }
 
 /* Larger mobile devices */
@@ -87,6 +100,23 @@
         width: 80%;
         height: auto;
         margin-bottom: 15px;
+    }
+
+    .col-nav {
+        width: 50%;
+    }
+
+    .col-nav li {
+        display: block;
+    }
+    
+    .col-socials {
+        width: 50%;
+    }
+
+    .footer-nav li,
+    .social-links li {
+      margin-right: 5px;
     }
 }
 
