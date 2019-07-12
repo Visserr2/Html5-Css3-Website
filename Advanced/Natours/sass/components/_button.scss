@@ -50,6 +50,16 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+            
+        }
+    }
+
     &--animate-up {
         animation: moveInBottom .5s ease-out .75s;
         /* Use this when you  want to start animation at 0% so it's not visible when there's a delay*/
