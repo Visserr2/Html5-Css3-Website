@@ -678,3 +678,41 @@ body {
     display: none; }
   .form__radio-input:checked ~ .form__radio-label .form__radio-button:after {
     opacity: 1; }
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3000; }
+  .popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: table;
+    width: 75%;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    overflow: hidden; }
+  .popup__left {
+    display: table-cell;
+    width: 33.33333333%; }
+  .popup__right {
+    display: table-cell;
+    width: 66.666666667%;
+    vertical-align: middle;
+    padding: 3rem 5rem; }
+  .popup__img {
+    display: block;
+    width: 100%; }
+  .popup__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    column-count: 2;
+    column-gap: 6rem;
+    column-rule: 1px solid #eee;
+    hyphens: auto; }
